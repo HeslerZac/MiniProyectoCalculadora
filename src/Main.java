@@ -1,5 +1,9 @@
+import entities.Suma;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Proyecto base de Calculadora - cada miembro debe implementar su parte.");
+        Suma suma = new Suma();
+        int resultado = suma.sumar(10, 5);
+        System.out.println("Resultado de la suma: " + resultado);
     }
 }

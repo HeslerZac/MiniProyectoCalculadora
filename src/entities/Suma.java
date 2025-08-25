@@ -1,5 +1,10 @@
 package entities;
 
-public class Suma {
-    // Implementación de la operación de suma (Integrante: Hesler)
+import interfaces.ISuma;
+
+public class Suma implements ISuma {
+    @Override
+    public int sumar(int a, int b) {
+        return a + b;
+    }
 }

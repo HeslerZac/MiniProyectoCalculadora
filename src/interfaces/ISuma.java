@@ -1,5 +1,10 @@
 package interfaces;
 
+/**
+ * Interfaz para la operación de suma.
+ * @author Hesler Zac
+ * @email heslerosbaldoh@gmail.com
+ */
 public interface ISuma {
-    double ejecutar(double a, double b);
+    int sumar(int a, int b);
 }
